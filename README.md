@@ -1,30 +1,35 @@
-# 🧮 Matematică Viteză (Math Speed Quiz)
+# Test Fulger Matematică
 
-Un joc interactiv de matematică mentală scris în **Python**, care rulează direct în consolă. Testează viteza de calcul și precizia sub presiune!
+Testează viteza de calcul și precizia sub presiune!
 
-## 🌟 Funcționalități Principale
+## Descriere
+- Testul este compus din șase întrebări create de python, aceste întrebări sunt diferite pentru fiecare participant.
+- Avem șase întrebări, iar acestea au trei niveluri de dificultate, deci câte două întrebări pentru fiecare nivel.
+Nivel 1: Numere mici (ex: 5-30), calcule simple.
+Nivel 2: Numere până la 100.
+Nivel 3: Numere mari (sute) sau înmulțiri mai complexe.
+- Răspunsurile sunt distincte, sub formă de grilă, iar cele greșite sunt cuprinse într-un interval ales de mine ce este apropriat de răspunsul corect, pentru a face un pic mai dificil testul.
+- Fiecare întrebare are o durată de 45 de secunde care îți permite să răspunzi.
+- După fiecare rezolvare, primești rezultatul a ceea ce ai făcut, adică dacă e corect sau nu și care era de fapt varianta bună.
+- Răspunsurile participanților sunt salvate, împreună cu numele lor pe care trebuie să-l introducă la finalul testului, ce vor fi exportate într-un fișier de tip text sub formă de clasament.
 
-* **🔢 Generare Procedurală:** Întrebările sunt create pe loc (nu sunt predefinite), asigurând că jocul este diferit de fiecare dată.
-* **📈 Dificultate Progresivă:** Jocul devine mai greu pe măsură ce avansezi:
-  * *Nivel Ușor:* Calcule simple (5-30).
-  * *Nivel Mediu:* Numere până la 100.
-  * *Nivel Greu:* Calcule complexe (sute, operații multiple).
-* **⏳ Cronometru:** Ai la dispoziție **45 de secunde** per întrebare. Timpul se scurge!
-* **🧠 Algoritm de "Capcane":** Răspunsurile greșite sunt generate inteligent (valori apropiate de rezultatul corect) pentru a descuraja ghicitul.
-* **🏆 Leaderboard (Clasament):** Scorurile sunt salvate automat într-un fișier local (`clasament.txt`) pentru a păstra evidența celor mai buni jucători.
 
-## 🚀 Cum să rulezi jocul
 
-### Cerințe
-* Ai nevoie doar de **Python 3.x** instalat.
-* Nu sunt necesare biblioteci externe (folosește doar librăriile standard: `time`, `random`, `os`).
 
-### Instalare și Rulare
 
-1. Descarcă sau clonează acest repository.
-2. Deschide un terminal (CMD/PowerShell) în folderul proiectului.
-3. Rulează comanda:
 
-```bash
-python main.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
